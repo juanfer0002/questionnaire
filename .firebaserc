@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "business-agenda-a5857": {
+      "hosting": {
+        "business-agenda": [
+          "business-agenda-a5857"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "business-agenda-a5857"
+  }
+}

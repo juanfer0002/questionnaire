@@ -108,6 +108,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "business-agenda:build:production",
+            "firebaseProject": "business-agenda-a5857",
+            "firebaseHostingSite": "business-agenda-a5857"
+          }
         }
       }
     }
