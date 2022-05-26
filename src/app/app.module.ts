@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AdminModule } from './admin/admin.module';
+import { RespondentModule } from './respondent/respondent.module';
+
 // import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
 // import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 // import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
@@ -33,6 +36,8 @@ import { provideFunctions, getFunctions } from '@angular/fire/functions';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AdminModule,
+    RespondentModule,
     // MdbAccordionModule,
     // MdbCarouselModule,
     // MdbCheckboxModule,
