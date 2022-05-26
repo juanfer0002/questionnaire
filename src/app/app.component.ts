@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'business-agenda';
+  title = 'questionnaire';
 
   constructor(db: Database) {
     

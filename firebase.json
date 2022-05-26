@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "target": "business-agenda",
-    "public": "dist/business-agenda",
+    "target": "questionnaire",
+    "public": "dist/questionnaire",
     "ignore": [
       "**/.*"
     ],

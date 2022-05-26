@@ -1,14 +1,14 @@
 {
   "targets": {
-    "business-agenda-a5857": {
+    "questionnaire-31071": {
       "hosting": {
-        "business-agenda": [
-          "business-agenda-a5857"
+        "questionnaire": [
+          "questionnaire-31071"
         ]
       }
     }
   },
   "projects": {
-    "default": "business-agenda-a5857"
+    "default": "questionnaire-31071"
   }
 }
