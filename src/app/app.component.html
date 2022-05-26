@@ -1,25 +1,12 @@
-<div class="container">
-  <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
-    <div class="text-center">
-      <img
-        class="mb-4"
-        src="https://mdbootstrap.com/img/logo/mdb-transparent-250px.png"
-        style="width: 250px; height: 90px"
-      />
-      <h5 class="mb-3">Thank you for using our product. We're glad you're with us.</h5>
-      <p class="mb-3">MDB Team</p>
-      <p>
-        PS. We'll be releasing "How to build your first project with MDB 5 Angular" tutorial soon.
-      </p>
-      <a
-      class="btn btn-primary btn-lg"
-      href=" https://mdbootstrap.com/newsletter/"
-      target="_blank"
-      role="button"
-      >Join now</a
-      >
-    </div>
-  </div>
+<div class="container d-flex align-items-center justify-content-center h-100">
+  <div class="welcome-message d-flex flex-column align-items-center">
+    <p class="text-center">
+      Welcome to questionnaire, You'll be presented several questions and you'll be able to pick an option for it if you are a respondent.
 
-  <router-outlet></router-outlet>
+      If you are an admin, you are allow to configure questionnaires and start them for respondent to input their answers. You'll also see insights and graphics
+    </p>
+
+    <button type="button" class="btn btn-primary mb-2">Go as Admin</button>
+    <button type="button" class="btn btn-light ">Go as Respondent</button>
+  </div>
 </div>
